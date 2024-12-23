@@ -1,0 +1,7 @@
+C:\Users\dario\Desktop\HvH Service Cleaner\HvH Service Cleaner\bin\Debug\HvH Service Cleaner.exe.config
+C:\Users\dario\Desktop\HvH Service Cleaner\HvH Service Cleaner\bin\Debug\HvH Service Cleaner.exe
+C:\Users\dario\Desktop\HvH Service Cleaner\HvH Service Cleaner\bin\Debug\HvH Service Cleaner.pdb
+C:\Users\dario\Desktop\HvH Service Cleaner\HvH Service Cleaner\obj\Debug\HvH Service Cleaner.csproj.AssemblyReference.cache
+C:\Users\dario\Desktop\HvH Service Cleaner\HvH Service Cleaner\obj\Debug\HvH Service Cleaner.csproj.CoreCompileInputs.cache
+C:\Users\dario\Desktop\HvH Service Cleaner\HvH Service Cleaner\obj\Debug\HvH Service Cleaner.exe
+C:\Users\dario\Desktop\HvH Service Cleaner\HvH Service Cleaner\obj\Debug\HvH Service Cleaner.pdb
