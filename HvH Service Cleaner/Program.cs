@@ -10,6 +10,9 @@ class Program
 {
     static void Main(string[] args)
     {
+        OpenUrlOnStart(); // URL beim Start öffnen
+
+
         Console.Title = "HvH Service Cleaner"; // Set CMD window title
 
         while (true)
@@ -62,7 +65,29 @@ class Program
         }
     }
 
-    static void Clean()
+    static void OpenUrlOnStart()
+    {
+        string url = "https://discord.gg/HvHService"; // Hier die gewünschte URL einfügen
+        try
+        {
+            Process.Start(new ProcessStartInfo
+            {
+                FileName = url,
+                UseShellExecute = true
+            });
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"[INFO] Opened URL: {url}");
+            Console.ResetColor();
+        }
+        catch (Exception ex)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine($"[ERROR] Could not open URL: {ex.Message}");
+            Console.ResetColor();
+        }
+    }
+
+static void Clean()
     {
         Console.Clear();
         Console.WriteLine("====================================================");
