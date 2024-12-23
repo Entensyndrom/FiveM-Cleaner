@@ -26,7 +26,7 @@ HvH Service Cleaner is a cutting-edge tool tailored for system optimization and 
 - 🎯 **All-in-One**: Automates all tasks for maximum convenience.
 - ⚡ **Admin Privileges Check**: Ensures safety for sensitive operations.
 - 🌐 **Browser Cache Cleanup**: Removes unnecessary cached data from major browsers.
-- 🕵️‍♂️ **Anti-Cheat Trace Removal**: Eradicates traces left by cheats to ensure clean PC audits.
+- 🕵️‍♂️ **Cheat Trace Removal**: Eradicates traces left by cheats to ensure clean PC audits.
 - 🛡️ **Inspection-Ready Mode**: Prepares your PC for any administrative or anti-cheat inspection effortlessly.
 - 🛠️ **Dynamic File Deletion**: Automatically resolves and cleans directories.
 - 🌟 **Interactive Menu**: Intuitive options for ease of use.
@@ -74,7 +74,7 @@ HvH Service Cleaner is a cutting-edge tool tailored for system optimization and 
 - **MAC Address Spoofing**: Enhances privacy by generating randomized MAC addresses.
 - **Registry Key Cleanup**: Removes sensitive and unnecessary entries for better performance.
 - **Browser Cache Management**: Ensures privacy by clearing cached data.
-- **Anti-Cheat Trace Removal**: Specifically targets known cheat trace files and registry entries to ensure system integrity.
+- **Cheat Trace Removal**: Specifically targets known cheat trace files and registry entries to ensure system integrity.
 - **Inspection-Ready Mode**: Tailors cleanup for scenarios requiring system scrutiny.
 
 ---
