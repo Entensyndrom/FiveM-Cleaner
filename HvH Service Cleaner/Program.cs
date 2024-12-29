@@ -522,13 +522,13 @@ static void Clean()
     {
         try
         {
-            // Beende explorer.exe
+            // Stop explorer.exe
             KillProcess("explorer.exe");
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("[+] Explorer process terminated.");
             Console.ResetColor();
 
-            // Pause für 1 Sekunde
+            // Pause for 1 Second
             Thread.Sleep(1000);
 
             // Batch-Datei erstellen und ausführen
