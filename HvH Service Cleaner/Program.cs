@@ -264,6 +264,7 @@ static void Clean()
     static void DeleteRegistryKeys()
     {
         string[] keys = {
+            "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\RunMRU",
             "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\MSLicensing\\HardwareID",
             "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\RecentDocs",
             "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\ComDlg32\\OpenSavePidlMRU",
@@ -311,8 +312,8 @@ static void Clean()
             "HKEY_CURRENT_USER\\Software\\Google\\Drive\\SyncPrefs",
             "HKEY_CURRENT_USER\\Software\\Microsoft\\OneDrive\\Accounts",
             "HKEY_CURRENT_USER\\Software\\Dropbox\\Client",
-            "HKEY_CURRENT_USER\\Software\\Classes\\Local Settings\\Software\\Microsoft\\Windows\\CurrentVersion\\AppContainer\\Storage\\MicrosoftEdge"
-
+            "HKEY_CURRENT_USER\\Software\\Classes\\Local Settings\\Software\\Microsoft\\Windows\\CurrentVersion\\AppContainer\\Storage\\MicrosoftEdge",
+            "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer"
         };
 
         foreach (var key in keys)
